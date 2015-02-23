@@ -30,6 +30,7 @@
 
 #include "server.h"
 #include <avr/pgmspace.h>
+#define prog_char  char PROGMEM
 
 
 // This file contains various strings used by the WiServer

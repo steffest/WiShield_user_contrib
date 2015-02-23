@@ -4,8 +4,11 @@ Async Labs Inc.
 www.asynclabs.com
 
 -------------------------------------------------------------------------------
-Version 1.2.0
+Version 1.2.1
 -------------------------------------------------------------------------------
+Changes - Steffest
+- Fixed compilation issues on Arduino IDE 1.6
+
 Changes:
 - Fixed buffer overflow issue
 - Added files for WiServer implementation

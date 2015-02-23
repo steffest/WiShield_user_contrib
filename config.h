@@ -35,6 +35,8 @@
 
 #ifndef CONFIG_H_
 #define CONFIG_H_
+#define prog_char  char PROGMEM
+#define prog_uchar  unsigned char PROGMEM
 
 #include "witypes.h"
 
@@ -48,7 +50,7 @@ extern U8 security_passphrase_len;
 extern U8 security_type;
 extern U8 wireless_mode;
 
-extern prog_uchar wep_keys[];
+extern unsigned char wep_keys[];
 
 extern const prog_char webpage[];
 extern const prog_char twitter[];
